@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Post:</strong>
+  <%= @image.post %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @image.description %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @image.image %>
+</p>
+
+<p>
+  <strong>Gallery token:</strong>
+  <%= @image.gallery_token %>
+</p>
+
+<p>
+  <strong>Image file name:</strong>
+  <%= @image.image_file_name %>
+</p>
+
+<p>
+  <strong>Image content type:</strong>
+  <%= @image.image_content_type %>
+</p>
+
+<p>
+  <strong>Image file size:</strong>
+  <%= @image.image_file_size %>
+</p>
+
+<p>
+  <strong>Image updated at:</strong>
+  <%= @image.image_updated_at %>
+</p>
+
+<%= link_to 'Edit', edit_image_path(@image) %> |
+<%= link_to 'Back', images_path %>
